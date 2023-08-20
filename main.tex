@@ -1,0 +1,84 @@
+\documentclass{article}
+
+\usepackage{array}
+\usepackage{etoolbox}
+\usepackage{fancyhdr}
+\usepackage{geometry} 
+\usepackage{graphicx}
+\usepackage{soul}
+\usepackage{titling}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BEGIN METADATA: Edit the following as appropriate
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Project Title}  % the title of your project
+\newcommand\shorttitle{\thetitle}  % if needed: a shorter title for the document header
+% Team members.
+\newcommand\firstname{Student 1}  % full name
+\newcommand\firstid{id01}         % ID, e.g. xy01234
+\newcommand\secondname{Student 2} % full name
+\newcommand\secondid{id02}        % ID, e.g. xy01234
+\newcommand\thirdname{Student 3}  % full name
+\newcommand\thirdid{id03}         % ID, e.g. xy01234
+% Uncomment the rows for the next 2 students if and as needed.
+% \newcommand\fourthname{Student 4} % full name
+% \newcommand\fourthid{id04}        % ID, e.g. xy01234
+% \newcommand\fifthname{Student 5}  % full name
+% \newcommand\fifthid{id05}         % ID, e.g. xy01234
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% END METADATA: Do not edit the preamble any further.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{fancy}
+\lhead{Kaavish Proposal}
+\chead{\shorttitle}
+\rhead{Fall 2023}
+\cfoot{Page \thepage}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\newcommand\instruction[1]{\textit{#1}}
+
+\begin{document}
+
+% Cover page.
+\input{cover}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DATA: Populate the rest of the document as instructed.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Problem definition}
+\instruction{Describe the problem that the project addresses.}
+
+\section{Social relevance}
+\instruction{Describe any societal problem that the project addresses.}
+
+\section{Originality/Novelty}
+\instruction{Describe the value of solving the problem. Compare and contrast with any existing solutions.}
+
+\section{CS contribution}
+\instruction{Describe the CS component of the project, e.g. the higher level CS courses that contribute to it.}
+
+\section{Scope and Deliverables}
+\instruction{Justify the scope of the project with respect to the size of the team and the year long duration. List the foreseeable deliverables.}
+
+\section{Feasibility}
+\instruction{List the resources, e.g. datasets, compute resources, software libraries, hardware, required for the project. Mention how you expect to access and utilize them for the project.}
+
+\section{Team dynamics}
+\instruction{Justify the suitability of the team members to the project. For example, their relevant courses, projects, internships, or research.}
+
+\section{References}
+\instruction{List your references.}
+
+% External advisor undertaking.
+\input{external}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
